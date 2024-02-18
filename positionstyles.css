@@ -159,6 +159,9 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  justify-items: center;
 }
 .red6 {
   width: 500px; 
