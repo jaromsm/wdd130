@@ -13,7 +13,6 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -22,7 +21,7 @@ nav {
     grid-column: 1/4;
     grid-row: 1/3;
 }
-.hero-msg {
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
 }
