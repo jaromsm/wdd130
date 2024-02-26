@@ -45,9 +45,7 @@ nav a {
     grid-template-columns: repeat(10, 1fr)
 
 }
-.card-img, .mountains {
-    width: 100%;
-}
+
 
 .rivers-card{
     grid-column: 2/4;
@@ -63,7 +61,9 @@ nav a {
     grid-column: 8/10;
     grid-row: 2/3;
 } 
-
+.card-img, .mountains {
+    width: 100%;
+}
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
