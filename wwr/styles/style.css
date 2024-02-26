@@ -75,6 +75,7 @@ nav a {
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
+    color: white;
 } 
 
 #hero-msg h1, #hero-msg h4 {
