@@ -33,7 +33,7 @@
     max-width: 1600px;
     margin: 0 auto;
   }
-nav a {
+.nav a {
     text-align: center;
     padding: 35px;
 }
