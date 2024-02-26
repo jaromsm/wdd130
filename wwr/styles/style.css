@@ -4,12 +4,12 @@
     font-family: 'Ariel', 'Helvetica', sans-serif;
 }
 
-#header {
+header {
     display: grid;
     grid-template-columns: 150px auto;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-around;
 }
@@ -33,7 +33,7 @@
     max-width: 1600px;
     margin: 0 auto;
   }
-.nav a {
+nav a {
     text-align: center;
     padding: 35px;
 }
