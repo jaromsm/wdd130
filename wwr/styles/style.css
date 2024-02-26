@@ -199,5 +199,11 @@ footer .social img{
     margin: 200px 0;
 }
 .card-img{
-    border: black 10px;
-}
+        border: black 10px;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+.card-img:hover{
+        opacity: .6;
+        transform: scale(1.1);
+    }
