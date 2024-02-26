@@ -70,12 +70,14 @@ nav a {
 .mountains{
     grid-column:2/7;
     grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 } 
 
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
     color: white;
+    box-shadow: 5px 5px 10px #6f7364;
 } 
 
 #hero-msg h1, #hero-msg h4 {
