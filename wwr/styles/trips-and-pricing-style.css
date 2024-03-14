@@ -27,6 +27,7 @@ nav {
 #explanation {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    padding-bottom: 100px;
 }
 #explanation-header {
     grid-column: 2/4;
