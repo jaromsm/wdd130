@@ -97,6 +97,7 @@ nav a {
 .button-box {
     text-align: center;
     margin-bottom: 20px;
+    z-index: -5;
 }
 
 main section {
