@@ -46,17 +46,21 @@ nav a {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
-.rivers-card{
+.grand-canyon-1-card{
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
-.camping-card{
+.salmon-ricer-card{
     grid-column: 5/7;
     grid-row: 2/3;
 } 
 
-.rapids-card{
+.desolation-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+} 
+.grand-canyon-2-card{
     grid-column: 8/10;
     grid-row: 2/3;
 } 
