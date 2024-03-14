@@ -43,7 +43,7 @@ nav a {
 
 .trip-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 .grand-canyon-1-card{
@@ -61,7 +61,7 @@ nav a {
     grid-row: 2/3;
 } 
 .grand-canyon-2-card{
-    grid-column: 8/10;
+    grid-column: 11/13;
     grid-row: 2/3;
 } 
 .card-img, .mountains {
