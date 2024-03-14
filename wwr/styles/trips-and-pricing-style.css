@@ -220,6 +220,9 @@ footer .social img{
         transform: scale(1.1);
     }
 
+.dates{
+    margin-top: 100px;
+}
     @media screen and (max-width: 900px) {
         #hero, .home-grid {
             display: block;
