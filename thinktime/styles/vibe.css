@@ -188,23 +188,20 @@ nav a:hover {
 /* Ensure to copy all styles from the previous CSS file and make necessary adjustments */
 
 #main-part {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Set two columns */
+    grid-gap: 20px; /* Add gap between columns */
+    align-items: center; /* Center items vertically */
+  }
+  
+  #main-part > div {
+    grid-column: span 1; /* Span one column for each div */
+  }
+  
+  #main-part img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  }
 
-#main-part h1 {
-  text-align: center;
-  grid-template-columns: 1/2
-}
-
-#main-part p {
-  grid-template-columns: 1/2;
-}
-
-#main-part img {
-  max-width: 100%;
-  grid-template-columns: 2/3;
-}
 
 header {
   padding: 1em;
