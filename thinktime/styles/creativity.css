@@ -279,6 +279,15 @@ header img {
   text-align: center;
 }
 
+.nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
 .overview-item h1 {
   font-size: 24px;
 }

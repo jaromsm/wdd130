@@ -305,6 +305,14 @@ header img {
   grid-template-columns: 3/4; /* Place in the third column */
 }
 
+.nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
 main {
   padding: 20px; /* Adjust padding as needed */
