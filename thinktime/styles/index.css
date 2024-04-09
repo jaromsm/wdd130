@@ -229,6 +229,7 @@ header img {
 .home-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 20px; /* Adjust the gap between paragraphs and image */
 }
 
@@ -238,8 +239,7 @@ header img {
 
 #home img {
   max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  align-items: center;
-  text-align:center;
+  grid-template-rows: 2/3;
 }
 
 
