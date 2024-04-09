@@ -183,15 +183,12 @@ nav a:hover {
 }
 
 /* Your custom CSS styles should go here */
-
-/* Your custom CSS styles should go here */
 header {
   padding: 1em;
-  text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--nav-background-color);
   display: flex; /* Use flexbox to align items */
-  justify-content: space-between; /* Spread items horizontally */
+  justify-content: flex-start; /* Align items to the start (left) */
   align-items: center; /* Center items vertically */
 }
 
@@ -215,6 +212,7 @@ header img {
   width: 100px; /* Adjust the width of the logo */
   height: auto; /* Maintain aspect ratio */
 }
+
 
 main {
   padding: 20px; /* Adjust padding as needed */
