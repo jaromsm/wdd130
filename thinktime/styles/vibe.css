@@ -188,6 +188,9 @@ nav a:hover {
 /* Ensure to copy all styles from the previous CSS file and make necessary adjustments */
 
 
+
+  
+  
   #main-part {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
@@ -195,16 +198,19 @@ nav a:hover {
     align-items: center; /* Center items vertically */
   }
   
-  #main-part > div {
-    grid-column: 1; /* Each div occupies the first column */
+  #main-part h1 {
+    grid-column: 1 / 2; /* H1 spans first column */
+  }
+  
+  #main-part p {
+    grid-column: 1 / 2; /* Paragraph spans first column */
   }
   
   #main-part img {
-    grid-column: 2; /* Image occupies the second column */
+    grid-column: 2 / 3; /* Image spans second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
   }
   
-
 header {
   padding: 1em;
   color: var(--headline-color-on-color);
