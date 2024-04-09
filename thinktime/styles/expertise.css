@@ -328,19 +328,21 @@ footer {
 }
 
 #supporting-1 {
-    grid-column: 1; /* Place in the first column */
-    display: grid;
-    grid-template-columns: 1fr; /* Display as a single column */
-    grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
-    grid-gap: 10px; /* Adjust gap between items */
+  grid-column: 2; /* Place in the second column */
+  display: grid;
+  grid-template-columns: 1fr; /* Display as a single column */
+  grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
+  grid-gap: 10px; /* Adjust gap between items */
 }
 
 #supporting-2 {
-    grid-column: 2; /* Place in the second column */
-    display: grid;
-    grid-template-columns: 1fr; /* Display as a single column */
-    grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
-    grid-gap: 10px; /* Adjust gap between items */
+  grid-column: 1; /* Place in the first column */
+  display: grid;
+  grid-template-columns: 1fr; /* Display as a single column */
+  grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
+  grid-gap: 10px; /* Adjust gap between items */
+}
+
 }
 
 #supporting-1 h2,
