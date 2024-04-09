@@ -329,6 +329,14 @@ footer {
     text-align: center;
 }
 
+#supporting-1{
+    grid-template-columns: 1/2;
+}
+
+#supporting-2{
+    grid-template-columns: 2/3;
+}
+
 .supportingimg img {
     width: 100%;
     max-width: 100%;
