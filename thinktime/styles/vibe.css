@@ -187,21 +187,23 @@ nav a:hover {
 /* Your CSS styles here */
 /* Ensure to copy all styles from the previous CSS file and make necessary adjustments */
 
-#main-part {
+
+  #main-part {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Set two columns */
-    grid-gap: 20px; /* Add gap between columns */
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-gap: 20px; /* Gap between columns */
     align-items: center; /* Center items vertically */
   }
   
   #main-part > div {
-    grid-column: span 1; /* Span one column for each div */
+    grid-column: 1; /* Each div occupies the first column */
   }
   
   #main-part img {
+    grid-column: 2; /* Image occupies the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
   }
-
+  
 
 header {
   padding: 1em;
