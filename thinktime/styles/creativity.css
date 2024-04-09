@@ -335,6 +335,7 @@ footer {
     grid-template-columns: 1fr; /* Display as a single column */
     grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
     grid-gap: 10px; /* Adjust gap between items */
+    background-color: #f9f9f9;
 }
 
 #supporting-2 {
@@ -343,6 +344,7 @@ footer {
     grid-template-columns: 1fr; /* Display as a single column */
     grid-template-rows: auto auto auto; /* Define rows for h1, p, and img */
     grid-gap: 10px; /* Adjust gap between items */
+    background-color: #f9f9f9;
 }
 
 #supporting-1 h2,
