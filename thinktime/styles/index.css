@@ -220,19 +220,28 @@ header img {
   text-align: center; /* Center align all text within the home section */
 }
 
+
+
 #home h1 {
   text-align: center; /* Center align the header */
 }
 
+.home-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust the gap between paragraphs and image */
+}
+
 #home p {
-  max-width: 50%;
   text-align: left;
 }
 
 #home img {
-  max-width: 50%;
-  align-self: flex-end;
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
 }
+
+
+
 
 
 main {
