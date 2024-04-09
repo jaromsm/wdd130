@@ -186,6 +186,7 @@ nav a:hover {
 
 
 
+
 #main-part {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
@@ -206,6 +207,7 @@ nav a:hover {
     grid-column: 2 / 3; /* Place image in the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
 }
+
 
 
 
