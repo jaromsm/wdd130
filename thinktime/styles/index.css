@@ -213,20 +213,24 @@ header img {
   height: auto; /* Maintain aspect ratio */
 }
 
-
 #home {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center; /* Center align all text within the home section */
+}
+
+#home h1 {
+  text-align: center; /* Center align the header */
 }
 
 #home p {
-  max-width: 50%; /* Adjust the width as needed */
+  max-width: 50%;
   text-align: left;
 }
 
 #home img {
-  max-width: 50%; /* Adjust the width as needed */
+  max-width: 50%;
   align-self: flex-end;
 }
 
