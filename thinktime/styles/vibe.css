@@ -192,10 +192,6 @@ nav a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-.home-content {
-  gap: 20px;
-}
-
 #main-part h1 {
   text-align: center;
   grid-column: 1/2
