@@ -325,17 +325,18 @@ footer {
     padding: 20px;
 }
 
-
-
-#supporting-1{
-    grid-template-columns: 1/2;
+#supporting-1 {
+    grid-column: 1; /* Place in the first column */
 }
 
-
-#supporting-2{
-    grid-template-columns: 2/3;
+#supporting-2 {
+    grid-column: 2; /* Place in the second column */
 }
 
+#supporting-1,
+#supporting-2 {
+    text-align: center;
+}
 
 .supportingimg img {
     width: 100%;
@@ -343,10 +344,13 @@ footer {
     height: auto;
 }
 
-#supporting-1 h2, #supporting-2 h2 {
+#supporting-1 h2,
+#supporting-2 h2 {
     font-size: 24px;
 }
 
-#supporting-1 p, #supporting-2 p {
+#supporting-1 p,
+#supporting-2 p {
     font-size: 18px;
 }
+
