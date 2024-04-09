@@ -143,10 +143,12 @@ nav a:hover {
   text-align: center;
 
 }
+
 .images {
-  width: 400px
+  width: 400px;
   max-width: 100%;
 }
+
 .sm-home {
   grid-area: home;
   background-color: #ccc;
