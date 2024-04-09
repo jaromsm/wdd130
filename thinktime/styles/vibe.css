@@ -316,3 +316,29 @@ section {
 footer {
   padding: 20px;
 }
+
+
+#supporting-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+#supporting-1, #supporting-2 {
+    text-align: center;
+}
+
+.supportingimg img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#supporting-1 h2, #supporting-2 h2 {
+    font-size: 24px;
+}
+
+#supporting-1 p, #supporting-2 p {
+    font-size: 18px;
+}
