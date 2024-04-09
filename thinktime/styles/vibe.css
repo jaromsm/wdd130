@@ -194,11 +194,16 @@ nav a:hover {
 
 #main-part h1 {
   text-align: center;
-  grid-column: 1/2
+  grid-template-columns: 1/2
 }
 
 #main-part p {
-  grid-column: 1/2;
+  grid-template-columns: 1/2;
+}
+
+#main-part img {
+  max-width: 100%;
+  grid-template-columns: 2/3;
 }
 
 header {
