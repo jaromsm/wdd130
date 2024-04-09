@@ -194,6 +194,7 @@ nav a:hover {
   
   .main-part-h1 {
     grid-template-columns: 1 / 2; /* h1 in the first column */
+    align-items: left;
   }
   
   .main-part-p {
