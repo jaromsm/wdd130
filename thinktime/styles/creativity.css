@@ -329,6 +329,14 @@ footer {
     background-color: #f9f9f9;
 }
 
+.supporting-p{
+  background-color: #f9f9f9;
+}
+
+.supporting-1{
+  background-color: #f9f9f9;
+}
+
 #supporting-1 {
     grid-column: 1; /* Place in the first column */
     display: grid;
