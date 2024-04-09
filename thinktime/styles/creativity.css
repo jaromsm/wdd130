@@ -189,21 +189,22 @@ nav a:hover {
 #main-part {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-template-rows: auto;
     grid-gap: 20px; /* Gap between columns */
     align-items: center; /* Center items vertically */
 }
 
 .main-part-h1 {
-    grid-column: 1; /* Span the first two columns */
+    grid-template-columns: 1/2; /* Span the first two columns */
     text-align: center; /* Center align the title */
 }
 
 .main-part-p {
-    grid-column: 1; /* Place paragraph in the first column */
+    grid-column: 1/2; /* Place paragraph in the first column */
 }
 
 .main-part-img {
-    grid-column: 2 / 3; /* Place image in the second column */
+    grid-column: 2/3; /* Place image in the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
 }
 
