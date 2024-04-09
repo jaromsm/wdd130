@@ -226,10 +226,15 @@ header img {
   text-align: center; /* Center align the header */
 }
 
+
 .home-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px; /* Adjust the gap between paragraphs and image */
+  display: flex; /* Change from grid to flex */
+  justify-content: center; /* Center align items horizontally */
+  align-items: flex-start; /* Align items to the start vertically */
+}
+
+.home-content > div:last-child {
+  flex: 0 0 auto; /* Ensure the image doesn't grow or shrink */
 }
 
 #home p {
