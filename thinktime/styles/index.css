@@ -284,11 +284,6 @@ main {
   padding: 20px; /* Adjust padding as needed */
 }
 
-#overview_buckets {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 section {
   margin-bottom: 30px;
