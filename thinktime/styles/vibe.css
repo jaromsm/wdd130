@@ -199,6 +199,13 @@ nav a:hover {
     text-align: center; /* Center align the title */
 }
 
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-gap: 20px; /* Gap between columns */
+    align-items: center; /* Center items vertically */
+}
+
 .main-part-p {
     grid-column: 1 / 2; /* Place paragraph in the first column */
     text-align: left; /* Align paragraph to the left */
@@ -208,6 +215,8 @@ nav a:hover {
     grid-column: 2 / 3; /* Place image in the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
 }
+
+
 
 
 
