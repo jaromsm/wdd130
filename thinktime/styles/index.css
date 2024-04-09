@@ -214,6 +214,23 @@ header img {
 }
 
 
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home p {
+  max-width: 50%; /* Adjust the width as needed */
+  text-align: left;
+}
+
+#home img {
+  max-width: 50%; /* Adjust the width as needed */
+  align-self: flex-end;
+}
+
+
 main {
   padding: 20px; /* Adjust padding as needed */
 }
