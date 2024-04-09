@@ -184,6 +184,7 @@ nav a:hover {
 
 /* Your custom CSS styles should go here */
 
+/* Your custom CSS styles should go here */
 header {
   padding: 1em;
   text-align: center;
@@ -199,24 +200,16 @@ nav {
   font-size: 1.2em;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex; /* Use flexbox to align items */
-  padding: 0;
-}
-
-nav li {
-  margin-right: 20px; /* Adjust spacing between links */
-}
-
 nav a {
   text-decoration: none;
   color: var(--nav-link-color);
+  margin-right: 20px; /* Adjust spacing between links */
 }
 
 nav a:hover {
   color: var(--nav-hover-link-color);
 }
+
 main {
   padding: 20px; /* Adjust padding as needed */
 }
