@@ -238,7 +238,8 @@ header img {
 
 #home img {
   max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  text-align: center;
+  align-items: center;
+  text-align:center;
 }
 
 
