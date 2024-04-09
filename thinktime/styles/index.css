@@ -183,6 +183,40 @@ nav a:hover {
 }
 
 /* Your custom CSS styles should go here */
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--nav-background-color);
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Spread items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+nav {
+  line-height: 3em;
+  font-size: 1.2em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex; /* Use flexbox to align items */
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px; /* Adjust spacing between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+}
 main {
   padding: 20px; /* Adjust padding as needed */
 }
