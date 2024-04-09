@@ -210,6 +210,12 @@ nav a:hover {
   color: var(--nav-hover-link-color);
 }
 
+/* Adjust logo size */
+header img {
+  width: 100px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
 main {
   padding: 20px; /* Adjust padding as needed */
 }
