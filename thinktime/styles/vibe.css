@@ -327,10 +327,20 @@ footer {
 
 #supporting-1 {
     grid-column: 1; /* Place in the first column */
+    display: grid;
+    grid-template-areas:
+        "h1"
+        "p"
+        "img";
 }
 
 #supporting-2 {
     grid-column: 2; /* Place in the second column */
+    display: grid;
+    grid-template-areas:
+        "img"
+        "h1"
+        "p";
 }
 
 #supporting-1,
@@ -338,19 +348,22 @@ footer {
     text-align: center;
 }
 
-.supportingimg img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
 #supporting-1 h2,
 #supporting-2 h2 {
     font-size: 24px;
+    grid-area: h1;
 }
 
 #supporting-1 p,
 #supporting-2 p {
     font-size: 18px;
+    grid-area: p;
+}
+
+.supportingimg img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    grid-area: img;
 }
 
