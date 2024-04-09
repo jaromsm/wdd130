@@ -346,6 +346,9 @@ footer {
 #supporting-1,
 #supporting-2 {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Ensure elements are displayed in a column */
+    align-items: center; /* Center align items horizontally */
 }
 
 #supporting-1 h2,
