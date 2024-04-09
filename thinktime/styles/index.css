@@ -207,6 +207,14 @@ nav a:hover {
   color: var(--nav-hover-link-color);
 }
 
+.nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 /* Adjust logo size */
 header img {
   width: 100px; /* Adjust the width of the logo */
