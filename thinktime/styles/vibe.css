@@ -192,17 +192,15 @@ nav a:hover {
     align-items: center; /* Center items vertically */
   }
   
-  .main-part-h1 {
+  #main-part-h1 {
     grid-template-columns: 1 / 2; /* h1 in the first column */
-    align-items: left;
-    align-content: left;
   }
   
-  .main-part-p {
+  #main-part-p {
     grid-template-columns: 1 / 2; /* p in the first column */
   }
   
-  .main-part-img {
+  #main-part-img {
     grid-template-columns: 2 / 3; /* img in the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
   }
