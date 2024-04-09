@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 #main-part p {
-  text-align: left;
+  grid-column: 1/2;
 }
 
 header {
