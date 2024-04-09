@@ -194,7 +194,7 @@ nav a:hover {
 }
 
 .main-part-h1 {
-    grid-column: 1 / 2; /* Span the first two columns */
+    grid-column: 1 / 2; /* Span the first column */
     text-align: center; /* Center align the title */
 }
 
@@ -207,6 +207,7 @@ nav a:hover {
     grid-column: 2 / 3; /* Place image in the second column */
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
 }
+
 
 
 
