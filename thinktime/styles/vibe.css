@@ -184,16 +184,24 @@ nav a:hover {
 
 /* Your custom CSS styles should go here */
 
-#main-part {
+#main-part .home-content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the start (left) */
-    text-align: left; /* Align text to the left */
+    flex-direction: row; /* Display content in a row */
+    justify-content: space-between; /* Space elements evenly along the row */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure full width */
   }
   
-  #main-part h1 {
-    margin-bottom: 10px; /* Add margin to separate the header from the text */
+  #main-part .home-content > div {
+    flex: 1; /* Allow each div to take up equal space */
+    padding: 0 20px; /* Add padding for spacing */
   }
+  
+  #main-part .home-content img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
   
   
   .home-content {
