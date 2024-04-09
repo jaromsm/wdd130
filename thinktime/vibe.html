@@ -3,64 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Think Time Site Plan</title>
-    <!-- Link your CSS file here -->
-    <link rel="stylesheet" href="styles/style.css">
-    <style>
-        /* Your CSS styles here */
-    </style>
+    <title>Think Time Site Plan - Vibe</title>
+    <link rel="stylesheet" href="styles/vibe.css">
 </head>
 <body>
     <header>
-        <!-- Website Logo -->
-        <img src="logo.jpg" alt="Website Logo">
+        <img src="https://jaromsm.github.io/wdd130/thinktime/images/logo_img.png" alt="Website Logo">
         <nav>
-            <!-- Navigation Links -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="vibe.html">Vibe</a></li>
-                <li><a href="expertise.html">Expertise</a></li>
-                <li><a href="creativity.html">Creativity</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="vibe.html">Vibe</a>
+            <a href="expertise.html">Expertise</a>
+            <a href="creativity.html">Creativity</a>
         </nav>
     </header>
 
     <main>
-            <section id="main-part">
-                <h1>Vibe - The Feels</h1>
-                <p>The simplest of the three, in my opinion, is vibe. Vibe essentially refers to the feeling of the music. What kind of tone does it set? Does it seem to highjack your emotional systems and get you into ‘the feels,’ whether breakup depression or a new-romance high.
-                    </p>
-                <!-- Insert images for Home page here -->
-                <div id="main-image">
+        <section id="main-part">
+            <h1>Vibe - The Feels</h1>
+            <div class="home-content">
+                <div>
+                    <p>The simplest of the three, in my opinion, is vibe. Vibe essentially refers to the feeling of the music. What kind of tone does it set? Does it seem to highjack your emotional systems and get you into ‘the feels,’ whether breakup depression or a new-romance high.</p>
+                </div>
+                <div>
                     <img src="https://jaromsm.github.io/wdd130/thinktime/images/country.jpeg" alt="Country Singer">
                 </div>
-            </section>
+            </div>
+        </section>
 
+        <section id="overview-header">
+            <h1>Overview of the 3 Buckets</h1>
+        </section>
 
-            <section id="supporting-p">
-                <section id="supporting-1">
-                    <section id="supportingimg"> 
-                        <img src="https://jaromsm.github.io/wdd130/thinktime/images/country.jpeg" alt="Concert">
-                    </section>
-                        <h1>Country</h1>
-                        <p>Vibe-dominance in music is most commonly reflected in country music. It is extremely powerful at setting a mood and at seemingly highjacking the emotional systems of the listener. It’s a more abstract, emotionally driven draw.</p>
-                        <section id="supporting-2">
-                            <section id="supportingimg">
-                                <img src="https://jaromsm.github.io/wdd130/thinktime/images/concert.jpeg" alt="Concert">
-                            </section>
-                            <h1>Feel-good pop</h1>
-                            <p>Feel-good pop serves as a quintessential example of vibe-based music preference. It's characterized by catchy melodies, uplifting lyrics, and an overall positive mood that resonates with listeners, eliciting feelings of happiness and joy.</p>
-                        </section>
-                        
-            </section>
-        
+        <section id="overview_buckets" class="overview-container">
+            <div class="overview-item" data-column="1">
+                <h1>Country</h1>
+                <p>Vibe-dominance in music is most commonly reflected in country music. It is extremely powerful at setting a mood and at seemingly highjacking the emotional systems of the listener. It’s a more abstract, emotionally driven draw.</p>
+            </div>
+            <div class="overview-item" data-column="2">
+                <h1>Feel-good pop</h1>
+                <p>Feel-good pop serves as a quintessential example of vibe-based music preference. It's characterized by catchy melodies, uplifting lyrics, and an overall positive mood that resonates with listeners, eliciting feelings of happiness and joy.</p>
+            </div>
+        </section>
     </main>
 
-
     <footer>
-        
         <p>Think Time © 2024 - Jarom Martineau</p>
-    
     </footer>
 </body>
 </html>
